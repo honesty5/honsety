@@ -1,0 +1,91 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: "微软雅黑";
+}
+section{
+	display: block;
+}
+#smallnav{
+	background-color: #f0f0f0;
+	width: 100%;
+    height: 45px;
+    position: fixed;
+    
+}
+#smallnav span{
+	line-height: 45px;
+	margin:0 10px;
+}
+#maxs{
+	padding-left: -10px;
+}
+.fa{
+	font-size: 20px;
+	color: #00CC00;
+}
+#bts,#ts{
+	margin: 7px 0;
+	height: 25px;
+}
+#ts{
+	width: 50%;
+}
+#bts{
+	width: 20%;
+	background-color: #00cc00;
+	border: none;
+}
+#smallnav span > a{
+	text-decoration: none;
+	color:#000000;
+}
+#smallnav span> a:hover{
+	color: red;
+}
+/*logo*/
+#logoms{
+	padding-top: 45px;
+	border-bottom: 1px solid #cceabb;
+}
+/*大导航*/
+.nav-pills > li.active > a{
+	color: #000;
+    background-color: #337ab7;
+    margin: 5px;
+}
+#largenav ul{
+	 background-color: #77d8d8;
+}
+.nav-pills > li > a {
+    border-radius: 4px;
+    margin: 5px;
+    color: #000000;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #337ab7;
+}
+.nav-pills > li > a:hover{
+	background-color: #337ab7;
+}
+
+ /*导航查看*/
+#dnav{
+	background-color: #fff;
+	
+}
+#dnav ol{
+	border: 1px solid #c0c0c0;
+}
+#isabled{
+	height: 40px;
+	background-color: #E0FFFF;
+	border: 1px solid #77d8d8;
+	border-radius: 30%;
+}
+#dnav a:hover{
+	background-color: transparent;
+	color: red;
+}
